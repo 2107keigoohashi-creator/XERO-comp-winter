@@ -1,0 +1,48 @@
+{
+  "name": "XERO Fortnite 冬季大会",
+  "language": "ja",
+  "format": "trio",
+  "totalMatches": 6,
+  "entry": {
+    "open": true,
+    "deadline": "2026-12-20T23:59:00+09:00",
+    "maxTeams": 33,
+    "requireEpicId": false
+  },
+  "scoring": {
+    "placementPoints": {
+      "1": 11, "2": 6, "3": 5, "4": 4, "5": 4,
+      "6": 3, "7": 3, "8": 2, "9": 2, "10": 1
+    },
+    "pointsPerKill": 1,
+    "killCap": null,
+    "tiebreakers": ["victory_royales", "avg_kills", "avg_placement", "total_kills", "last_match_placement"]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Day1",
+      "startAt": "2026-12-26T20:00:00+09:00",
+      "matches": [1, 2, 3],
+      "checkinOpenMinutesBefore": 60,
+      "checkinCloseMinutesBefore": 15,
+      "reminderMinutesBefore": [30, 10]
+    },
+    {
+      "round": 2,
+      "name": "Day2",
+      "startAt": "2026-12-27T20:00:00+09:00",
+      "matches": [4, 5, 6],
+      "checkinOpenMinutesBefore": 60,
+      "checkinCloseMinutesBefore": 15,
+      "reminderMinutesBefore": [30, 10]
+    }
+  ],
+  "standings": {
+    "displayTop": 20
+  },
+  "validation": {
+    "maxKillsPerPlayer": 40,
+    "minLobbyPlayers": 10
+  }
+}
